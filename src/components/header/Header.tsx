@@ -1,20 +1,21 @@
 const Header = () => (
-    <nav>
-        <div className="d-flex justify-content-between">
-        <div className="">
-            <div>Logo</div>
-        </div>
-
-        <div >
-            <ul className="d-flex">
-                <li>Home</li>
-                <li>Service</li>
-                <li>About us</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-)
+  <nav>
+    <div className="d-flex">
+      <div className="">
+        <div>Logo</div>
+      </div>
+    </div>
+    <div>
+      <div className="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+);
 
 export default Header;

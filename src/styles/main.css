@@ -1,3 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.navbar ul li {
+  margin-right: 10px;
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(52, 52, 52);
+}
+
+.containerLandingText {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+}
+
+.imageLanding {
+  width: 10px;
+  height: 10px;
+}
+
+.titleLanding {
+  font-size: 28px;
+  align-items: center;
+  justify-content: center;
+}
+
+.animateTitleLanding {
+  font-size: 25px;
+  color: rgb(215, 61, 61);
+  align-items: center;
+  justify-content: center;
+}
+
 .bg_main {
   width: 100vw;
   height: 100vh;
