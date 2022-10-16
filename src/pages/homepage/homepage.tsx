@@ -1,3 +1,4 @@
+import Experiences from "../../components/experiences/Experiences";
 import Header from "../../components/header/Header";
 import LandingContainer from "../../components/landingcontainer/LandingContainer";
 
@@ -10,6 +11,7 @@ const HomePage = () => {
         <LandingContainer />
       </div>
       </div>
+      <Experiences />
     </>
   );
 };

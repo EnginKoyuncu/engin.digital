@@ -1,0 +1,29 @@
+.boxExp {
+    margin: 10px 50px;
+    padding: 0 30px;
+    height: 200px;
+    background-color: #EBEBEB;
+    color: #505050;
+    border-radius: 10px;
+    
+}
+
+.boxExperience:hover {
+    background-color: #fefefe;
+}
+
+.experienceTitle {
+    font-weight: 600;
+}
+
+.experienceP {
+    font-weight: 300;
+}
+
+.experienceImg {
+    margin: 10px 0;
+    img {
+
+        height: 100px;
+    }
+}

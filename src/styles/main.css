@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -41,6 +46,34 @@
   color: rgb(215, 61, 61);
   align-items: center;
   justify-content: center;
+}
+
+.boxExp {
+  margin: 10px 50px;
+  padding: 0 30px;
+  height: 200px;
+  background-color: #EBEBEB;
+  color: #505050;
+  border-radius: 10px;
+}
+
+.boxExperience:hover {
+  background-color: #fefefe;
+}
+
+.experienceTitle {
+  font-weight: 600;
+}
+
+.experienceP {
+  font-weight: 300;
+}
+
+.experienceImg {
+  margin: 10px 0;
+}
+.experienceImg img {
+  height: 100px;
 }
 
 .bg_main {
