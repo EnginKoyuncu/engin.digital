@@ -1,6 +1,5 @@
 .boxExp {
     margin: 10px 50px;
-    padding: 0 30px;
     height: 200px;
     background-color: #EBEBEB;
     color: #505050;
@@ -8,6 +7,13 @@
     
 }
 
+.boxExperience {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
 .boxExperience:hover {
     background-color: #fefefe;
 }
